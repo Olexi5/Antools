@@ -8,269 +8,455 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="container header">
       <a href="./index.html" class="logo">
         <img src="./images/logo.png" alt="logo" />
         antools.
       </a>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="">Categories</a></li>
-        <li><a href="">My Collections</a></li>
-        <li><a href="">Blog</a></li>
-      </ul>
-      <ul>
-        <li>
-          <a href="">Login</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="">Categories</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="">My Collections</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+        </ul>
+      </nav>
+      <ul class="btn-list">
+        <li class="btn-item">
+          <a class="btn-link" href="">Login</a>
         </li>
-        <li>
-          <button>Sign Up</button>
+        <li class="btn-item">
+          <button class="btn">Sign Up</button>
         </li>
       </ul>
     </header>
     <main>
       <section class="hero">
-        <h1>Awesome tools for Designer & Developer<span>.</span></h1>
-        <p>
-          Antool is a web collection of information on paid or free Design and
-          Development tools
-        </p>
-        <form action="">
-          <input type="text" placeholder="find more than 430+ tools..." />
-          <button type="submit">Search</button>
-        </form>
-        <ul>
-          <li>
-            <div><img src="./images/facebook.png" alt="" /></div>
-          </li>
-          <li>
-            <div><img src="./images/instagram.png" alt="" /></div>
-          </li>
-          <li>
-            <div><img src="./images/twitter.png" alt="" /></div>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="hero-title">
+            Awesome tools for Designer & Developer<span class="hero-sp">.</span>
+          </h1>
+          <p class="hero-text">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </p>
+          <form action="" class="hero-form">
+            <input
+              type="text"
+              placeholder="find more than 430+ tools..."
+              class="hero-input"
+            />
+            <button type="submit" class="hero-btn">Search</button>
+          </form>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <div class="hero-cont">
+                <img src="./images/facebook.png" alt="" class="hero-img" />
+              </div>
+            </li>
+            <li class="hero-item">
+              <div class="hero-cont">
+                <img src="./images/instagram.png" alt="" class="hero-img" />
+              </div>
+            </li>
+            <li class="hero-item">
+              <div class="hero-cont">
+                <img src="./images/twitter.png" alt="" class="hero-img" />
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>Most Popular Tools</h2>
-        <p>
+      <section class="container tools">
+        <h2 class="section-title">Most Popular Tools</h2>
+        <p class="tools-text">
           Tools for the best Designers and Developers most popularly used in the
           world
         </p>
-        <ul>
-          <li>
-            <div>
-              <img src="./images/figma.png" alt="" />
+        <ul class="tools-list">
+          <li class="tools-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/figma.png" alt="" />
               <div>
-                <h3>FIGMA</h3>
-                <p>Free</p>
+                <h3 class="tools-name">FIGMA</h3>
+                <p class="tools-status">Free</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a href="" class="action-link"
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
-          <li>
-            <div>
-              <img src="./images/sketch.png" alt="" />
+          <li class="tools-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/sketch.png" alt="" />
               <div>
-                <h3>Sketch</h3>
-                <p>Trial & Paid</p>
+                <h3 class="tools-name">Sketch</h3>
+                <p class="tools-status">Trial & Paid</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a href="" class="action-link"
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
-          <li>
-            <div>
-              <img src="./images/vsc.png" alt="" />
+          <li class="tools-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/vsc.png" alt="" />
               <div>
-                <h3>Visual Studio Code</h3>
-                <p>Free</p>
+                <h3 class="tools-name">Visual Studio Code</h3>
+                <p class="tools-status">Free</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a href="" class="action-link"
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
-          <li>
-            <div>
-              <img src="./images/notion.png" alt="" />
+          <li class="tools-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/notion.png" alt="" />
               <div>
-                <h3>Notion</h3>
-                <p>Free & Paid</p>
+                <h3 class="tools-name">Notion</h3>
+                <p class="tools-status">Free & Paid</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a href="" class="action-link"
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
-          <li>
-            <div>
-              <img src="./images/slack.png" alt="" />
+          <li class="tools-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/slack.png" alt="" />
               <div>
-                <h3>Slack</h3>
-                <p>Free & Paid</p>
+                <h3 class="tools-name">Slack</h3>
+                <p class="tools-status">Free & Paid</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a href="" class="action-link"
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
-          <li>
-            <div>
-              <img src="./images/invision.png" alt="" />
+          <li class="tools-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/invision.png" alt="" />
               <div>
-                <h3>Invision</h3>
-                <p>Free & Paid</p>
+                <h3 class="tools-name">Invision</h3>
+                <p class="tools-status">Free & Paid</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a href="" class="action-link"
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
         </ul>
-        <button>Load more</button>
+        <button class="tools-load">Load more</button>
       </section>
-      <section>
-        <h3>Trusted more than 150+ brand</h3>
-        <ul>
-          <li><img src="./images/microsoft.png" alt="" /></li>
-          <li><img src="./images/google.png" alt="" /></li>
-          <li><img src="./images/logos_slack.png" alt="" /></li>
-          <li><img src="./images/wordpress.png" alt="" /></li>
+      <section class="container brands">
+        <h3 class="brands-title">Trusted more than 150+ brand</h3>
+        <ul class="brands-list">
+          <li class="brands-item">
+            <img class="brands-img" src="./images/microsoft.png" alt="" />
+          </li>
+          <li class="brands-item">
+            <img class="brands-img" src="./images/google.png" alt="" />
+          </li>
+          <li class="brands-item">
+            <img class="brands-img" src="./images/logos_slack.png" alt="" />
+          </li>
+          <li class="brands-item">
+            <img class="brands-img" src="./images/wordpress.png" alt="" />
+          </li>
         </ul>
       </section>
-      <section>
-        <div>
-          <h2>Newcomer Tools</h2>
-          <p>Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-          <button>Explore more</button>
+      <section class="container new">
+        <div class="new-inf">
+          <h2 class="section-title">Newcomer Tools</h2>
+          <p class="new-text">
+            Wow! see the latest update of the most recommended tools from
+            reliable designers and developers
+          </p>
+          <button class="new-btn">Explore more</button>
         </div>
-        <ul>
-          <li>
-            <div>
-              <img src="./images/zeplin.png" alt="">
+        <ul class="new-list">
+          <li class="new-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/zeplin.png" alt="" />
               <div>
-                <h3>Zeplin</h3>
-                <p>Free & Paid</p>
+                <h3 class="tools-name">Zeplin</h3>
+                <p class="tools-status">Free & Paid</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a class="action-link" href=""
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
-          <li>
-            <div>
-              <img src="./images/phpstorm.png" alt="">
+          <li class="new-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/phpstorm.png" alt="" />
               <div>
-                <h3>PHPStorm</h3>
-                <p>Free</p>
+                <h3 class="tools-name">PHPStorm</h3>
+                <p class="tools-status">Free</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a class="action-link" href=""
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
-          <li>
-            <div>
-              <img src="./images/toolbox.png" alt="">
+          <li class="new-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/toolbox.png" alt="" />
               <div>
-                <h3>Toolbox</h3>
-                <p>Free</p>
+                <h3 class="tools-name">Toolbox</h3>
+                <p class="tools-status">Free</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a class="action-link" href=""
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
-          <li>
-            <div>
-              <img src="./images/procreate.png" alt="">
+          <li class="new-item">
+            <div class="tools-inf">
+              <img class="tools-img" src="./images/procreate.png" alt="" />
               <div>
-                <h3>Procreate</h3>
-                <p>Paid</p>
+                <h3 class="tools-name">Procreate</h3>
+                <p class="tools-status">Paid</p>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li>
-                <button><img src="./images/like.png" alt="" /></button>
+            <p class="tools-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <ul class="action-list">
+              <li class="action-item">
+                <button class="action-btn">
+                  <img class="action-like" src="./images/like.png" alt="" />
+                </button>
               </li>
-              <li>
-                <a href=""><img src="./images/install.png" alt="" /></a>
+              <li class="action-item">
+                <a class="action-link" href=""
+                  ><img
+                    class="action-install"
+                    src="./images/install.png"
+                    alt=""
+                /></a>
               </li>
             </ul>
-            <button>Visit</button>
+            <button class="tools-btn">Visit</button>
           </li>
         </ul>
       </section>
-      
+      <section class="container team">
+        <img class="team-img" src="./images/team1.png" alt="" />
+        <p class="team-text">
+          Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
+          reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla
+          velit labore occaecat do deserunt Lorem magna officia incididunt
+          consectetur amet. Sunt consectetur veniam minim ex commodo sint non.
+          Occaecat aute officia excepteur non laboris id qui ad.
+        </p>
+        <div class="team-inf">
+          <h3 class="team-name">Ronald Richards</h3>
+          <p class="team-profession">Product Manager</p>
+        </div>
+      </section>
+      <section class="container join">
+        <h2 class="section-title">Become a contributor?</h2>
+        <p class="join-text">
+          Join us and get tips & tricks to become a great Designer and Developer
+        </p>
+        <form action="" class="join-form">
+          <input
+            class="join-input"
+            type="text"
+            placeholder="Enter your email..."
+          />
+          <button class="join-btn" type="submit">Join Us</button>
+        </form>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="info">
+          <a class="footer-logo" href="./index.html"
+            ><img src="./images/logo1.png" alt="" />antools.</a
+          >
+          <h4 class="info-pre">Copyright 2021. Antools</h4>
+          <p class="info-text">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </p>
+        </div>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <h3 class="footer-title">Contact Us</h3>
+            <ul class="more-list">
+              <li class="more-item"><a class="more-link" href="">+621987463</a></li>
+              <li class="more-item"><a class="more-link" href="">M Building, No.10 A</a></li>
+              <li class="more-item"><a class="more-link" href="">antools@awesome.com</a></li>
+            </ul>
+          </li>
+          <li class="footer-item">
+            <h3 class="footer-title">Categories</h3>
+            <ul class="more-list">
+              <li class="more-item"><a class="more-link" href="">Design</a></li>
+              <li class="more-item"><a class="more-link" href="">Development</a></li>
+            </ul>
+          </li>
+          <li class="footer-item">
+            <h3 class="footer-title">Company Info</h3>
+            <ul class="more-list">
+              <li class="more-item"><a class="more-link" href="">About Us</a></li>
+              <li class="more-item"><a class="more-link" href="">Our Partners</a></li>
+              <li class="more-item"><a class="more-link" href="">Blog</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
