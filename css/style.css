@@ -1,12 +1,19 @@
 :root{
 --backround-color:#1E252B;
+--backround-color2: #283036;
 --accent-color: #FF6E30;
 --title-color:#FFFFFFE5;
 --text-color: #FFFFFF8C;
 --text2-color: #FFFFFFC7;
 --pretitle-color: #FFA5378C;
 --pretitle2-color: #FFA537;
+--input-color: #837A93;
 }
 body{
     background-color: var(--backround-color);
+}
+.container{
+    width: 1224px;
+    margin: 0 auto;
+    outline: 3px solid red;
 }
