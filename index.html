@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Antools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -17,8 +20,8 @@
   <body>
     <header class="container header">
       <a href="./index.html" class="logo">
-        <img src="./images/logo.png" alt="logo" />
-        antools.
+        <img src="./images/logo.png" alt="logo" class="logo-img" />
+        <p>antools.</p>
       </a>
       <nav class="nav">
         <ul class="nav-list">
@@ -43,38 +46,42 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">
-            Awesome tools for Designer & Developer<span class="hero-sp">.</span>
-          </h1>
-          <p class="hero-text">
-            Antool is a web collection of information on paid or free Design and
-            Development tools
-          </p>
-          <form action="" class="hero-form">
-            <input
-              type="text"
-              placeholder="find more than 430+ tools..."
-              class="hero-input"
-            />
-            <button type="submit" class="hero-btn">Search</button>
-          </form>
-          <ul class="hero-list">
-            <li class="hero-item">
-              <a href="" class="hero-link"><img src="./images/facebook.png" alt="" class="hero-img" /></a>
-            </li>
-            <li class="hero-item">
-              <a href="" class="hero-link"><img src="./images/instagram.png" alt="" class="hero-img" /></a>
-            </li>
-            <li class="hero-item">
-              <a href="" class="hero-link"><img src="./images/twitter.png" alt="" class="hero-img" /></a>
-            </li>
-          </ul>
-        </div>
+        <h1 class="hero-title">
+          Awesome tools for Designer & Developer<span class="hero-sp">.</span>
+        </h1>
+        <p class="hero-text">
+          Antool is a web collection of information on paid or free Design and
+          Development tools
+        </p>
+        <form action="" class="hero-form">
+          <input
+            type="text"
+            placeholder="find more than 430+ tools..."
+            class="hero-input"
+          />
+          <button type="submit" class="hero-btn">Search</button>
+        </form>
+        <ul class="hero-list">
+          <li class="hero-item">
+            <a href="" class="hero-link"
+              ><img src="./images/facebook.png" alt="" class="hero-img"
+            /></a>
+          </li>
+          <li class="hero-item">
+            <a href="" class="hero-link"
+              ><img src="./images/instagram.png" alt="" class="hero-img"
+            /></a>
+          </li>
+          <li class="hero-item">
+            <a href="" class="hero-link"
+              ><img src="./images/twitter.png" alt="" class="hero-img"
+            /></a>
+          </li>
+        </ul>
       </section>
       <section class="container tools">
         <h2 class="section-title">Most Popular Tools</h2>
-        <p class="tools-text">
+        <p class="tools-p">
           Tools for the best Designers and Developers most popularly used in the
           world
         </p>
@@ -90,22 +97,24 @@
             <p class="tools-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <ul class="action-list">
-              <li class="action-item">
-                <button class="action-btn">
-                  <img class="action-like" src="./images/like.png" alt="" />
-                </button>
-              </li>
-              <li class="action-item">
-                <a href="" class="action-link"
-                  ><img
-                    class="action-install"
-                    src="./images/install.png"
-                    alt=""
-                /></a>
-              </li>
-            </ul>
-            <button class="tools-btn">Visit</button>
+            <div class="do">
+              <ul class="action-list">
+                <li class="action-item">
+                  <button class="action-btn">
+                    <img class="action-like" src="./images/like.png" alt="" />
+                  </button>
+                </li>
+                <li class="action-item">
+                  <a href="" class="action-link"
+                    ><img
+                      class="action-install"
+                      src="./images/install.png"
+                      alt=""
+                  /></a>
+                </li>
+              </ul>
+              <button class="tools-btn">Visit</button>
+            </div>
           </li>
           <li class="tools-item">
             <div class="tools-inf">
@@ -118,6 +127,7 @@
             <p class="tools-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="do">
             <ul class="action-list">
               <li class="action-item">
                 <button class="action-btn">
@@ -134,6 +144,7 @@
               </li>
             </ul>
             <button class="tools-btn">Visit</button>
+          </div>
           </li>
           <li class="tools-item">
             <div class="tools-inf">
@@ -146,6 +157,7 @@
             <p class="tools-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="do">
             <ul class="action-list">
               <li class="action-item">
                 <button class="action-btn">
@@ -162,6 +174,7 @@
               </li>
             </ul>
             <button class="tools-btn">Visit</button>
+          </div>
           </li>
           <li class="tools-item">
             <div class="tools-inf">
@@ -174,6 +187,7 @@
             <p class="tools-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="do">
             <ul class="action-list">
               <li class="action-item">
                 <button class="action-btn">
@@ -190,6 +204,7 @@
               </li>
             </ul>
             <button class="tools-btn">Visit</button>
+          </div>
           </li>
           <li class="tools-item">
             <div class="tools-inf">
@@ -202,6 +217,7 @@
             <p class="tools-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="do">
             <ul class="action-list">
               <li class="action-item">
                 <button class="action-btn">
@@ -218,6 +234,7 @@
               </li>
             </ul>
             <button class="tools-btn">Visit</button>
+          </div>
           </li>
           <li class="tools-item">
             <div class="tools-inf">
@@ -230,6 +247,7 @@
             <p class="tools-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="do">
             <ul class="action-list">
               <li class="action-item">
                 <button class="action-btn">
@@ -246,6 +264,7 @@
               </li>
             </ul>
             <button class="tools-btn">Visit</button>
+          </div>
           </li>
         </ul>
         <button class="tools-load">Load more</button>
@@ -269,7 +288,7 @@
       </section>
       <section class="container new">
         <div class="new-inf">
-          <h2 class="section-title">Newcomer Tools</h2>
+          <h2 class="new-title">Newcomer Tools</h2>
           <p class="new-text">
             Wow! see the latest update of the most recommended tools from
             reliable designers and developers
@@ -436,23 +455,35 @@
           <li class="footer-item">
             <h3 class="footer-title">Contact Us</h3>
             <ul class="more-list">
-              <li class="more-item"><a class="more-link" href="">+621987463</a></li>
-              <li class="more-item"><a class="more-link" href="">M Building, No.10 A</a></li>
-              <li class="more-item"><a class="more-link" href="">antools@awesome.com</a></li>
+              <li class="more-item">
+                <a class="more-link" href="">+621987463</a>
+              </li>
+              <li class="more-item">
+                <a class="more-link" href="">M Building, No.10 A</a>
+              </li>
+              <li class="more-item">
+                <a class="more-link" href="">antools@awesome.com</a>
+              </li>
             </ul>
           </li>
           <li class="footer-item">
             <h3 class="footer-title">Categories</h3>
             <ul class="more-list">
               <li class="more-item"><a class="more-link" href="">Design</a></li>
-              <li class="more-item"><a class="more-link" href="">Development</a></li>
+              <li class="more-item">
+                <a class="more-link" href="">Development</a>
+              </li>
             </ul>
           </li>
           <li class="footer-item">
             <h3 class="footer-title">Company Info</h3>
             <ul class="more-list">
-              <li class="more-item"><a class="more-link" href="">About Us</a></li>
-              <li class="more-item"><a class="more-link" href="">Our Partners</a></li>
+              <li class="more-item">
+                <a class="more-link" href="">About Us</a>
+              </li>
+              <li class="more-item">
+                <a class="more-link" href="">Our Partners</a>
+              </li>
               <li class="more-item"><a class="more-link" href="">Blog</a></li>
             </ul>
           </li>
