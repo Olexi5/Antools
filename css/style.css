@@ -1,5 +1,11 @@
 :root{
 --backround-color:#1E252B;
+--accent-color: #FF6E30;
+--title-color:#FFFFFFE5;
+--text-color: #FFFFFF8C;
+--text2-color: #FFFFFFC7;
+--pretitle-color: #FFA5378C;
+--pretitle2-color: #FFA537;
 }
 body{
     background-color: var(--backround-color);
