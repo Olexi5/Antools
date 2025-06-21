@@ -418,17 +418,6 @@ body {
 .new {
   margin-bottom: 200px;
 }
-.team {
-  display: flex;
-  gap: 57px;
-  margin-bottom: 358px;
-}
-.team-img {
-  margin-left: 187px;
-}
-.team-all {
-  margin-right: 188px;
-}
 .team-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -456,7 +445,7 @@ body {
 }
 .team-profession {
   font-family: "Poppins", sans-serif;
-  color: #FFFDFD8C;
+  color: #fffdfd8c;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -570,4 +559,58 @@ body {
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
+}
+.team-chevron-hover {
+  display: none;
+  transform: rotate(180deg);
+}
+.pre-btn:hover .team-chevron,
+.nxt-btn:hover .team-chevron {
+  display: none;
+}
+.pre-btn:hover .team-chevron-hover,
+.nxt-btn:hover .team-chevron-hover {
+  display: block;
+}
+.team {
+  padding: 0 auto;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin: 0 auto;
+  width: 849px;
+}
+.team::-webkit-scrollbar {
+  display: none;
+}
+.team-card {
+  flex: 0 0 auto;
+  width: 849px;
+  height: 492px;
+  display: flex;
+  gap: 57px;
+}
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+  z-index: 9;
+}
+.pre-btn {
+  left: 124px;
+}
+.nxt-btn {
+  right: 123px;
+  transform: rotate(180deg);
+}
+.gallery {
+  margin: 0 auto;
+  margin-bottom: 358px;
 }
