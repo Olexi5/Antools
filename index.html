@@ -46,38 +46,40 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">
-          Awesome tools for Designer & Developer<span class="hero-sp">.</span>
-        </h1>
-        <p class="hero-text">
-          Antool is a web collection of information on paid or free Design and
-          Development tools
-        </p>
-        <form action="" class="hero-form">
-          <input
-            type="text"
-            placeholder="find more than 430+ tools..."
-            class="hero-input"
-          />
-          <button type="submit" class="hero-btn">Search</button>
-        </form>
-        <ul class="hero-list">
-          <li class="hero-item">
-            <a href="" class="hero-link"
-              ><img src="./images/facebook.png" alt="" class="hero-img"
-            /></a>
-          </li>
-          <li class="hero-item">
-            <a href="" class="hero-link"
-              ><img src="./images/instagram.png" alt="" class="hero-img"
-            /></a>
-          </li>
-          <li class="hero-item">
-            <a href="" class="hero-link"
-              ><img src="./images/twitter.png" alt="" class="hero-img"
-            /></a>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="hero-title">
+            Awesome tools for Designer & Developer<span class="hero-sp">.</span>
+          </h1>
+          <p class="hero-text">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </p>
+          <form action="" class="hero-form">
+            <input
+              type="text"
+              placeholder="find more than 430+ tools..."
+              class="hero-input"
+            />
+            <button type="submit" class="hero-btn">Search</button>
+          </form>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <a href="" class="hero-link"
+                ><img src="./images/facebook.png" alt="" class="hero-img"
+              /></a>
+            </li>
+            <li class="hero-item">
+              <a href="" class="hero-link"
+                ><img src="./images/instagram.png" alt="" class="hero-img"
+              /></a>
+            </li>
+            <li class="hero-item">
+              <a href="" class="hero-link"
+                ><img src="./images/twitter.png" alt="" class="hero-img"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="container tools">
         <h2 class="section-title">Most Popular Tools</h2>
@@ -483,7 +485,8 @@
       <div class="container footer-container">
         <div class="info">
           <a class="footer-logo" href="./index.html"
-            ><img class="logo-img2" src="./images/logo1.png" alt="" /><p class="logo-text">antools.</p></a
+            ><img class="logo-img2" src="./images/logo1.png" alt="" />
+            <p class="logo-text">antools.</p></a
           >
           <h4 class="info-pre">Copyright 2021. Antools</h4>
           <p class="info-text">
@@ -531,4 +534,11 @@
       </div>
     </footer>
   </body>
+  <script src="js/lightgallery.min.js"></script>
+  <script>
+    let gallery = document.getElementById("lightgallery");
+    lightGallery(gallery, {
+      controls: true,
+    });
+  </script>
 </html>

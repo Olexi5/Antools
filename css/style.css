@@ -97,7 +97,6 @@ body {
   color: var(--title-color);
   width: 600px;
   margin-bottom: 30px;
-  margin-left: 111px;
 }
 .hero-title > span {
   font-family: "Poppins", sans-serif;
@@ -111,7 +110,6 @@ body {
   font-weight: 400;
   width: 487px;
   margin-bottom: 60px;
-  margin-left: 111px;
 }
 .hero-input {
   font-family: "Poppins", sans-serif;
@@ -128,8 +126,8 @@ body {
   );
   border-radius: 15px;
   padding: 21px 111px 22px 55px;
-  margin-left: 111px;
   margin-bottom: 110px;
+  width: 497.66px;
 }
 .hero-btn {
   font-family: "Poppins", sans-serif;
@@ -151,7 +149,6 @@ body {
 }
 .hero-list {
   display: flex;
-  margin-left: 111px;
 }
 .hero {
   background-image: url(../images/backround.png);
@@ -459,6 +456,7 @@ body {
 }
 .team-profession {
   font-family: "Poppins", sans-serif;
+  color: #FFFDFD8C;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -500,7 +498,7 @@ body {
   letter-spacing: 0%;
   color: var(--text-color);
   border-radius: 15px;
-  width: 406.18px;
+  width: 549px;
 }
 .join-btn {
   background-color: var(--accent-color);
