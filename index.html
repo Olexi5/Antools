@@ -40,11 +40,26 @@
           <button class="btn">Login</button>
         </li>
         <li class="btn-item">
-          <button class="btn">Sign Up</button>
+          <button class="btn" data-modal-open>Sign Up</button>
         </li>
       </ul>
     </header>
     <main>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <div class="inf-modal">
+            <h2 class="section-title">Sign up</h2>
+          <button class="close-btn" type="button" data-modal-close><svg class="close-svg"><use href="./images/symbol-defs.svg#icon-cross"></use></svg></button>
+          </div>
+          <form action="">
+            <input class="modal-email" type="email" placeholder="Your email...">
+            <input class="modal-email" type="tel" placeholder="Your phone number...">
+            <input class="modal-email" type="password" placeholder="Enter a password...">
+            <input class="modal-email" type="password" placeholder="Repeat this password...">
+            <button class="modal-btn" type="submit">Sign up</button>
+          </form>
+        </div>
+      </div>
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">
@@ -586,6 +601,7 @@
         </ul>
       </div>
     </footer>
+    <script src="./modal.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
