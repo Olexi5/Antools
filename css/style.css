@@ -25,6 +25,9 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+
+
 .logo,
 .footer-logo {
   font-family: "Poppins", sans-serif;
@@ -83,7 +86,7 @@ body {
   display: flex;
   gap: 4px;
 }
-.hero-form{
+.hero-form {
   position: relative;
 }
 .header {
@@ -509,7 +512,7 @@ body {
   left: 400px;
   top: 10px;
 }
-.join-form{
+.join-form {
   position: relative;
 }
 .footer {
@@ -627,7 +630,7 @@ body {
   margin-bottom: 358px;
   position: relative;
 }
-.backdrop{
+.backdrop {
   background-color: hsla(18, 91%, 91%, 0.267);
   width: 100%;
   height: 100%;
@@ -636,7 +639,7 @@ body {
   left: 0;
   z-index: 1;
 }
-.modal{
+.modal {
   background-color: #1e252b;
   position: absolute;
   padding: 25px;
@@ -647,27 +650,27 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 20px;
 }
-.is-hidden{
+.is-hidden {
   display: none;
 }
-.no-scroll{
+.no-scroll {
   overflow: hidden;
 }
-.close-svg{
+.close-svg {
   fill: #fdf5ff;
   width: 30px;
   height: 30px;
 }
-.close-btn{
-  background:none;
+.close-btn {
+  background: none;
   border: none;
 }
-.inf-modal{
+.inf-modal {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.modal-email{
+.modal-email {
   font-family: "Poppins", sans-serif;
   color: var(--input-text-color);
   font-weight: 400;
@@ -684,7 +687,7 @@ body {
   padding: 13px 251px 13px 22px;
   margin-bottom: 15px;
 }
-.modal-btn{
+.modal-btn {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
   padding: 16px 40px;
@@ -695,4 +698,19 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   border: none;
+}
+
+
+
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/background@2x.png);
+    background-size: contain;
+  }
+  .brands {
+    background-image: url(../images/backr2@2x.png);
+  }
 }
